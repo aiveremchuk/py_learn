@@ -1,4 +1,10 @@
 l = []
+m = []
 for i in range(10):
     l.append(i)
 print(l)
+
+for i in l:
+    i = i ** 10
+    m.append(i)
+print(m)
